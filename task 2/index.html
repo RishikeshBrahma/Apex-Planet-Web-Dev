@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex planet Task 2 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header with Flexbox Navigation -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="logo">MyWebsite</div>
+                <ul class="nav-links">
+                    <li><a href="#forms">Forms</a></li><li><a href="#layout">Layout</a></li><li><a href="#todo">To-Do List</a></li>
+                    
+                
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container">
+
+        <!-- Section 1: Contact Form -->
+        <section id="forms" class="content-section">
+            <h2>1. Contact Form</h2>
+            <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    <p class="error-message" aria-live="polite"></p>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                    <p class="error-message" aria-live="polite"></p>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                    <p class="error-message" aria-live="polite"></p>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+
+        <!-- Section 2: Responsive Layout Example -->
+        <section id="layout" class="content-section">
+            <h2>2. Responsive Layout (Flexbox & Grid)</h2>
+            <div class="grid-container">
+                <article class="main-content">
+                    <h3>Main Content Area</h3>
+                    <p>This area takes up more space on wider screens. The entire layout is built with CSS Grid, while the navigation above uses Flexbox. On smaller screens, the sidebar will stack below this main content.</p>
+                </article>
+                <aside class="sidebar">
+                    <h3>Sidebar</h3>
+                    <p>This is a sidebar. It could contain links, ads, or other secondary information.</p>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Section 3: Dynamic To-Do List -->
+        <section id="todo" class="content-section">
+            <h2>3. Dynamic To-Do List</h2>
+            <div class="todo-app">
+                <div class="todo-input-container">
+                    <input type="text" id="taskInput" placeholder="Add a new task...">
+                    <button id="addTaskBtn" class="add-btn">Add Task</button>
+                </div>
+                <ul id="taskList" class="task-list">
+                    <!-- Tasks will be added here by JavaScript -->
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Web Dev task 2 Apex planet</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
