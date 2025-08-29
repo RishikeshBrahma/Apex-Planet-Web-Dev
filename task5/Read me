@@ -1,0 +1,52 @@
+Web site link https://e-commerce-website-apexplanet.netlify.app/?email=rishikeshbrahma78%40gmail.com#
+E-commerce Website
+Stylo is a complete, fully responsive e-commerce website template built using only HTML, CSS, and vanilla JavaScript. It provides a clean, modern, and attractive user interface for showcasing fashion products. The project is designed to be lightweight, easy to understand, and simple to customize.
+
+Features
+Fully Responsive Design: Looks great on all devices, from large desktops to small mobile phones.
+
+Interactive UI Elements: Includes a pop-up newsletter subscription, a notification toast, and interactive product cards.
+
+Dynamic Mobile Navigation: Features a slide-out sidebar and a bottom navigation bar for a seamless mobile experience.
+
+Product Showcase: A well-organized grid to display new arrivals, trending items, and special deals.
+
+Pure HTML, CSS & JS: Built with fundamental web technologies without any frameworks, making it easy for anyone to modify.
+
+Attractive Styling: Enhanced with custom fonts from Google Fonts, smooth animations, and a modern color palette.
+
+Technologies Used
+HTML5: For the structure and content of the website.
+
+CSS3: For all styling, layout, responsiveness, and animations.
+
+Vanilla JavaScript: For all interactive features like the modal, mobile menu, and event handling.
+
+How to Use
+This project requires no complex setup or installation.
+
+Create the Files: In a new folder, create three files:
+
+index.html
+
+style.css
+
+script.js
+
+Copy the Code: Copy the code from the project into the corresponding files.
+
+Launch: Open the index.html file in your favorite web browser.
+
+That's it! The website is now live on your local machine.
+
+Customization
+This template is designed to be easily customized.
+
+Branding: To change the brand name, simply search for "Stylo" in the index.html file and replace it with your own.
+
+Products & Images: The products are hardcoded directly into the index.html file. You can easily replace the placeholder image URLs, titles, and prices with your own product information.
+
+Colors & Fonts: Most of the core colors and fonts can be changed by editing the CSS variables at the top of the style.css file.
+
+License
+This project is free to use and modify for personal and educational purposes.
