@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animation Test</title>
+    <style>
+        /* Basic Styling */
+        body {
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        /* The box we will animate */
+        #box {
+            width: 150px;
+            height: 150px;
+            background-color: #007bff;
+            /* This is the key part: it tells the browser to animate any change to the 'transform' property over 0.6 seconds */
+            transition: transform 0.6s ease-in-out;
+        }
+        /* The class we will add with JavaScript */
+        .rotate-effect {
+            /* This defines the final state of the animation */
+            transform: rotate(360deg);
+        }
+        button {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Animation Test</h1>
+        <div id="box"></div>
+        <br>
+        <button id="animate-btn">Click to Rotate</button>
+    </div>
+
+    <script>
+        // Get the button and the box from the page
+        const animateButton = document.getElementById('animate-btn');
+        const boxToAnimate = document.getElementById('box');
+
+        // When the button is clicked...
+        animateButton.addEventListener('click', () => {
+            // ...add the 'rotate-effect' class to the box.
+            // If the class is already there, remove it. This lets you click it multiple times.
+            boxToAnimate.classList.toggle('rotate-effect');
+        });
+    </script>
+
+</body>
+</html>

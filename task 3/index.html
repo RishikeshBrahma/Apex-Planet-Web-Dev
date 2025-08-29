@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase - Final Version</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Project Showcase</h1>
+    </header>
+
+    <main class="container">
+        <section class="card api-card">
+            <h2>Inspirational Quote</h2>
+            <div id="quote-container">
+                <p class="quote-text">Loading...</p>
+                <p class="quote-author"></p>
+            </div>
+            <button id="new-quote-btn">Get New Quote</button>
+        </section>
+
+        <section class="card carousel-card">
+            <h2>Image Gallery</h2>
+            <div class="carousel-container"></div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-btn prev-btn">&#10094;</button>
+                <div class="carousel-dots"></div>
+                <button class="carousel-btn next-btn">&#10095;</button>
+            </div>
+            
+            <div class="upload-section">
+                <label for="image-upload" class="upload-btn">Add Your Own Images</label>
+                <input type="file" id="image-upload" accept="image/*" multiple>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Project Delivered</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
